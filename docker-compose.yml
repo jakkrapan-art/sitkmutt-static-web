@@ -1,0 +1,6 @@
+services:
+  sitkmutt-static-web:
+    build: .
+    image: ghcr.io/jakkrapan-art/static-web:dev
+    ports:
+      - "8080:80"
